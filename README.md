@@ -36,7 +36,12 @@ In header file;
  
 In .cpp file;
 
-```player.setup("path_to_settings_file.xml", bool autoplay = false, bool loadsound = false, bool navigation = false, bool enableCoverImages = false);```
+```player.setup("path_to_settings_file.xml", 
+                 bool autoplay = false, 
+                 bool loadsound = false, 
+                 bool navigation = false, 
+                 bool enableCoverImages = false);
+```
 
 #### Notes:
 - If loadsound = true; Then, you should specify "SOUND_FOLDER" in XML file. Your sounds should have the same filename as video filenames
