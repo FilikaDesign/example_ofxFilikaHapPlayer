@@ -39,6 +39,6 @@ In .cpp file;
 ```player.setup("path_to_settings_file.xml", bool autoplay = false, bool loadsound = false, bool navigation = false, bool enableCoverImages = false);```
 
 #### Notes:
-1- If loadsound = true; Then, you should specify "SOUND_FOLDER" in XML file. Your sounds should have the same filename as video filenames
-2- If navigation = true; Then, you should specify "BTN_PLAY" and "BTN_PAUSE" in XML file. 
-3- If enableCoverImages = true; Then, you should specify "COVER_FOLDER" in XML file. Your sounds should have the same filename as video filenames. .png and .jpg files are allowed
+- If loadsound = true; Then, you should specify "SOUND_FOLDER" in XML file. Your sounds should have the same filename as video filenames
+- If navigation = true; Then, you should specify "BTN_PLAY" and "BTN_PAUSE" in XML file. 
+- If enableCoverImages = true; Then, you should specify "COVER_FOLDER" in XML file. Your sounds should have the same filename as video filenames. .png and .jpg files are allowed
