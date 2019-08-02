@@ -46,6 +46,7 @@ In .cpp file;
 In ofApp.h header file;
 
 ```#define TOUCH_ENABLE```
+
 ```#include "ofxFilikaMultiTouch"```
 
 In ofApp.cpp header file call main constructer method of ofxFilikaMultiTouch;
