@@ -42,3 +42,7 @@ In .cpp file;
 - If loadsound = true; Then, you should specify "SOUND_FOLDER" in XML file. Your sounds should have the same filename as video filenames
 - If navigation = true; Then, you should specify "BTN_PLAY" and "BTN_PAUSE" in XML file. 
 - If enableCoverImages = true; Then, you should specify "COVER_FOLDER" in XML file. Your sounds should have the same filename as video filenames. .png and .jpg files are allowed
+- In order to enable TOUCH EVENTS;
+In ofApp.h header file;
+
+```#define TOUCH_ENABLE```
