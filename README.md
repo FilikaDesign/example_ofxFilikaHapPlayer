@@ -40,8 +40,7 @@ In .cpp file;
                  bool autoplay = false, 
                  bool loadsound = false, 
                  bool navigation = false, 
-                 bool enableCoverImages = false);
-```
+                 bool enableCoverImages = false);```
 
 #### Notes:
 - If loadsound = true; Then, you should specify "SOUND_FOLDER" in XML file. Your sounds should have the same filename as video filenames
